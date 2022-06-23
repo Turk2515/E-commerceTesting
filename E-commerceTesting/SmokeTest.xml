@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1">
+        <classes>
+            <class name="stepDefinitions.Login">
+                <methods>
+                    <include name="user_enter_valid_username_and_password"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
